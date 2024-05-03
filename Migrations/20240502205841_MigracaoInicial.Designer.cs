@@ -10,7 +10,7 @@ using WebApplication;
 
 namespace WebApplication.Migrations
 {
-    [DbContext(typeof(AppDataContext))]
+    [DbContext(typeof(AppDbContext))]
     [Migration("20240502205841_MigracaoInicial")]
     partial class MigracaoInicial
     {

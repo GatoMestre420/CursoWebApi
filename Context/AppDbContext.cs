@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 namespace WebApplication;
 
 
-public class AppDataContext : DbContext{
+public class AppDbContext : DbContext{
 
    public DbSet<Categoria>? Categorias { get; set; }    
 

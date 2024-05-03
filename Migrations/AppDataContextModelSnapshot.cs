@@ -9,7 +9,7 @@ using WebApplication;
 
 namespace WebApplication.Migrations
 {
-    [DbContext(typeof(AppDataContext))]
+    [DbContext(typeof(AppDbContext))]
     partial class AppDataContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
